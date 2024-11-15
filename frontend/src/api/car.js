@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'http://localhost:5000/api/cars';
+const API_URL = 'https://car-management-application-k2t8.onrender.com/api/cars';
 
 export const createCar = (data) => axios.post(API_URL, data, {
   headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },

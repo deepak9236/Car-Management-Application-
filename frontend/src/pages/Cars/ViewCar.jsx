@@ -40,7 +40,7 @@ const ViewCar = () => {
   if (!car) return <div>Loading...</div>;
 
   // Check if car.images exists and has at least one image
-  const imageUrl = car.images && car.images.length > 0 ? `http://localhost:5000/uploads/${car.images[0]}` : '/path/to/default-image.jpg'; // Default image
+  const imageUrl = car.images && car.images.length > 0 ? `https://car-management-application-k2t8.onrender.com/uploads/${car.images[0]}` : '/path/to/default-image.jpg'; // Default image
 
   return (
     <div className="p-6">

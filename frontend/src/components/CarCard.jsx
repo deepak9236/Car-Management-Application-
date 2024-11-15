@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const CarCard = ({ car }) => {
-  const imageUrl = car.images && car.images.length > 0 ? `http://localhost:5000/uploads/${car.images[0]}` : '/path/to/default-image.jpg'; // Default image if no image is available
+  const imageUrl = car.images && car.images.length > 0 ? `https://car-management-application-k2t8.onrender.com/uploads/${car.images[0]}` : '/path/to/default-image.jpg'; // Default image if no image is available
 
   return (
     <div className="border rounded-lg shadow-lg p-4">
